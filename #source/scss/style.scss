@@ -345,7 +345,6 @@ html{
 	&__main-title {
 		text-align: center;
 		font-family: Saudagar;
-		//font-size: 19.318rem;
 		font-size: 15.5vw;
 		text-transform: uppercase;
 		color:#FFF;	
@@ -384,8 +383,6 @@ html{
 		}
 	}
 	&__text {
-		//line-height not working with class .text and here
-		line-heigth: 38px;
 		color:#FFF;
 		max-width: 800px;
 		text-align: center;
@@ -396,13 +393,14 @@ html{
 		@media (max-width: $md2){
 			max-width: 500px;
 			margin:20px auto 0px auto;
+			line-height: 25px;
 		}
 		@media (max-width: $md3){
 			max-width: 400px;
 		}
 		@media (max-width: $md4){
 			max-width: none;
-			margin:10px 10px 0px 10px;
+			margin:31px 25px 0px 25px;
 		}
 	}
 	&__image{
@@ -486,8 +484,6 @@ html{
 		}
 	}
 	&__text {
-		//line-hight with css class .text not working
-		line-height: 38px;
 		@media (max-width: $md2){
 			line-height: 20px;
 		}
@@ -538,9 +534,7 @@ html{
 		}
 	}
 	&__text {
-		//line-height not working with class .text and here
 		color:#FFF;
-		line-height: 38px;
 		@media (max-width: $md2){
 			line-height: 20px;
 		}
@@ -597,8 +591,6 @@ html{
 		}
 	}
 	&__text {
-		//line-height not working with class .text and here
-		line-height: 38px;
 		@media (max-width: $md2){
 			line-height: 20px;
 		}

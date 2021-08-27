@@ -105,7 +105,8 @@ h1, h2, h3, h4, h5, h6 {
 .text {
   font-family: "Sukhumvit Set";
   font-size: 1.275rem;
-  line-heigth: 38px;
+  font-weight: 300;
+  line-height: 38px;
   color: rgba(26, 26, 26, 0.8);
 }
 
@@ -667,7 +668,6 @@ body._lock {
   }
 }
 .coming-soon__text {
-  line-heigth: 38px;
   color: #FFF;
   max-width: 800px;
   text-align: center;
@@ -682,6 +682,7 @@ body._lock {
   .coming-soon__text {
     max-width: 500px;
     margin: 20px auto 0px auto;
+    line-height: 25px;
   }
 }
 @media (max-width: 767.98px) {
@@ -692,7 +693,7 @@ body._lock {
 @media (max-width: 479.98px) {
   .coming-soon__text {
     max-width: none;
-    margin: 10px 10px 0px 10px;
+    margin: 31px 25px 0px 25px;
   }
 }
 .coming-soon__image {
@@ -801,9 +802,6 @@ body._lock {
     margin: 0px 0px 5px 0px;
   }
 }
-.block-one__text {
-  line-height: 38px;
-}
 @media (max-width: 992.98px) {
   .block-one__text {
     line-height: 20px;
@@ -879,7 +877,6 @@ body._lock {
 }
 .block-two__text {
   color: #FFF;
-  line-height: 38px;
 }
 @media (max-width: 992.98px) {
   .block-two__text {
@@ -957,9 +954,6 @@ body._lock {
   .block-three__subtitle {
     margin: 0px 0px 5px 0px;
   }
-}
-.block-three__text {
-  line-height: 38px;
 }
 @media (max-width: 992.98px) {
   .block-three__text {
